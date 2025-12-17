@@ -9,7 +9,7 @@ public class BillingApp {
 		double billAmt = 0.0;
 		Scanner read = new Scanner(System.in);
 		
-		System.out.print("Enter your bill amount   : ");
+		System.out.print("Enter your bill amount is ");
 		billAmt = read.nextDouble();
 		
 		newCus = new RegisteredCus(101, "Mr.Galpaatha", 0.0, billAmt);
