@@ -4,8 +4,6 @@ public class RegisteredCus extends Customer{
 	private double rewardPoints = 0.0;
 	private double subTotal = 0.0;
 	private double netAmount = 0.0;
-	
-	public RegisteredCus() {}
 
 	public RegisteredCus(int id, String name, double rpoints, double stot) {
 		super(id, name);
