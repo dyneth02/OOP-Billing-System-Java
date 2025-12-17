@@ -4,7 +4,9 @@ public abstract class Customer {
 	protected int id;
 	protected String name;
 	
-	public Customer() {}
+	public Customer() {
+		this.id = 0;
+	}
 	
 	public Customer(int id, String name) {
 		this.id = id;
