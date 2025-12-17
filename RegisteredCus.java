@@ -21,7 +21,7 @@ public class RegisteredCus extends Customer{
 	public void display() {
 		super.display();
 		System.out.println("Customer Reward Points is " + rewardPoints + "0");
-		System.out.println("Customer Net Amount      : " + netAmount + "0");
+		System.out.println("Customer Net Amount is " + netAmount + "0");
 	}
 
 }
