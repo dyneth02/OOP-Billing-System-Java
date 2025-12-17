@@ -7,6 +7,7 @@ public class RegisteredCus extends Customer{
 
 	public RegisteredCus() {
 		this.rewardPoints = 0.0;
+		this.subTotal = 0.0;
 	}
 
 	public RegisteredCus(int id, String name, double rpoints, double stot) {
