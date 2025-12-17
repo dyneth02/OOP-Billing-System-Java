@@ -14,7 +14,7 @@ public abstract class Customer {
 	public abstract void calculateBill();
 	
 	public void display() {
-		System.out.println("Customer ID              : " + id);
+		System.out.println("Customer ID is " + id);
 		System.out.println("Customer Name            : " + name);
 	}
 	
