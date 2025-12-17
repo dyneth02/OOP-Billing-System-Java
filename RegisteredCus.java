@@ -5,6 +5,10 @@ public class RegisteredCus extends Customer{
 	private double subTotal = 0.0;
 	private double netAmount = 0.0;
 
+	public RegisteredCus() {
+		this.rewardPoints = 0.0;
+	}
+
 	public RegisteredCus(int id, String name, double rpoints, double stot) {
 		super(id, name);
 		this.rewardPoints = rpoints;
