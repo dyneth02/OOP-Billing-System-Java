@@ -15,7 +15,7 @@ public abstract class Customer {
 	
 	public void display() {
 		System.out.println("Customer ID is " + id);
-		System.out.println("Customer Name            : " + name);
+		System.out.println("Customer Name is " + name);
 	}
 	
 }
