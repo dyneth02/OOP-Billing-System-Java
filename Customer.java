@@ -6,6 +6,7 @@ public abstract class Customer {
 	
 	public Customer() {
 		this.id = 0;
+		this.name = "Unknown"
 	}
 	
 	public Customer(int id, String name) {
