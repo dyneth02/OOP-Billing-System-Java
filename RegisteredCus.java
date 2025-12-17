@@ -20,7 +20,7 @@ public class RegisteredCus extends Customer{
 	@Override
 	public void display() {
 		super.display();
-		System.out.println("Customer Reward Points   : " + rewardPoints + "0");
+		System.out.println("Customer Reward Points is " + rewardPoints + "0");
 		System.out.println("Customer Net Amount      : " + netAmount + "0");
 	}
 
